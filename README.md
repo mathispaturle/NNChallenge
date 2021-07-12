@@ -30,5 +30,3 @@ This page visualizes the detail that the user has selected in the previous page.
 ![image](https://user-images.githubusercontent.com/25639697/125333047-112a4500-e34a-11eb-8dd6-2e36b02aefd3.png)
 
 ![image](https://user-images.githubusercontent.com/25639697/125332795-c3154180-e349-11eb-857e-808cea8cc378.png)
-
-* Usage of XCode 11 with swiftUI.
