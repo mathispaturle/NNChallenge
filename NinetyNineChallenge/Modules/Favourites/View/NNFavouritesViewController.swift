@@ -193,6 +193,7 @@ extension NNFavouritesViewController: UITableViewDelegate, UITableViewDataSource
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.row == 0 && hasTopExplanation && !isSearchMode {
             let cell: TopExplanaitionCell = tableView.dequeueReusableCell(for: indexPath)
+            cell.selectionStyle = .none
             return cell
         }
         
@@ -208,6 +209,8 @@ extension NNFavouritesViewController: UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if indexPath.row == 0 && hasTopExplanation { return }
         let index = indexPath.row + ((hasTopExplanation && !isSearchMode) ? -1 : 0)
         
         let model = isSearchMode ? viewModel?.filteredFavourites.value[index] : viewModel?.favourites.value[index]
