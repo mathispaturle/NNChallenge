@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.4.3)
+  - PureLayout (3.1.8)
+  - Realm (10.10.0):
+    - Realm/Headers (= 10.10.0)
+  - Realm/Headers (10.10.0)
+  - RealmSwift (10.10.0):
+    - Realm (= 10.10.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - PureLayout
+  - RealmSwift (~> 10)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - PureLayout
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  PureLayout: a4afb3d79dd958564ce33d22c89f407280d8e6a8
+  Realm: f501df41a4222c67850c77cf135d472192ecf294
+  RealmSwift: c69aadfc7db0d60075178d037c2f34ada73d5201
+
+PODFILE CHECKSUM: 51b129d4d661077ef5a630a1dbc95918159fe9e6
+
+COCOAPODS: 1.10.1
